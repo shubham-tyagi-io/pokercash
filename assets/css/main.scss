@@ -1,0 +1,52 @@
+//====================================
+// Global Imports
+//====================================
+
+
+// Import bootstrap framework
+@import 'bootstrap/bootstrap';
+
+//Main Style
+@import 'style';
+
+
+.tags span {
+    margin-right: 9px;
+    border: 1px solid $success;
+    padding-right: 9px;
+    padding-left: 9px;
+    padding-top: 2px;
+    padding-bottom: 4px;
+    border-radius: 7px;
+    background-color: $success;
+    color: white;
+    opacity: 0.7;
+}
+.img{
+    max-width: 100%;
+    height: auto;
+}
+.l-gray{
+    background-color: #f0f0f0;
+}
+
+.bgimage {
+    width:100%;
+    height:500px;
+    background: url('/assets/img/c4.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    background-attachment: fixed;
+  }
+  .bgimage-review {
+    width:100%;
+    height:500px;
+    background: url('/assets/img/c7.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    background-attachment: fixed;
+  }
+
+
