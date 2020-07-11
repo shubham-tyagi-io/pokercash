@@ -10844,4 +10844,20 @@ body {
 .stars span:hover {
   color: #ffd900;
 }
+
+.done span {
+  color: #08a808;
+}
+
+.material-icons {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  vertical-align: middle;
+  margin: 3px;
+}
+
+.cross span {
+  color: red;
+}
 /*# sourceMappingURL=main.css.map */
